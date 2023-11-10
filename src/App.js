@@ -11,7 +11,7 @@ function App() {
     <>
     <BrowserRouter>
         <Routes>
-            <Route path="/epi-lista" element={<Login />} />
+            <Route path="/" element={<Login />} />
             <Route path="/Materials" element={<Materials />} />
             <Route path="/cart" element={<Cart />} />
         </Routes>
