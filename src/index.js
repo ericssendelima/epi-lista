@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { EpiLisContextProvider } from "./context/EpiListContext";
+import { NomeContextProvider } from "./context/NomeContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <NomeContextProvider>
+      <EpiLisContextProvider>
+        <App />
+      </EpiLisContextProvider>
+    </NomeContextProvider>
   </React.StrictMode>
 );
 

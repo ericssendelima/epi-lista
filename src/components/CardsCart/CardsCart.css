@@ -1,0 +1,67 @@
+div .container{
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-radius: 10px;
+    border: 2px solid rgb(74, 71, 71);
+    height: 150px;
+    width: 25rem;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+div .header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:flex-start;
+    /* background-color: cadetblue; */
+    padding-top: 5px;
+    height: 9rem;
+}
+
+div .footer{
+    box-sizing: border-box;
+     /* background-color: blueviolet; */
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    padding-left: 0;
+
+}
+
+div .controls{
+    box-sizing: border-box;
+   /* background-color: rgb(226, 76, 43); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-right: 130px;
+    padding-left: 0;
+    width: 210px;
+    
+    
+}
+
+div .info{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black
+}
+
+p #codigo, #quantidade{
+    color: black
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color:chartreuse
+}
+

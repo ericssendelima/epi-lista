@@ -1,0 +1,14 @@
+div .materials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li .materialsItems{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
