@@ -1,11 +1,11 @@
 import { useState, useContext } from "react";
 import { EpiListContext } from "../../context/EpiListContext";
 
-import { Badge, Button, Image } from "react-bootstrap";
+import { Button, Image } from "react-bootstrap";
 import "./CardsCart.css";
 
 const CardsCart = (props) => {
-  const { epiList, setEpiList } = useContext(EpiListContext);
+  const { setEpiList } = useContext(EpiListContext);
   let { id, name, quantidadeEpi, image } = props;
 
   const [quantity, setQuantity] = useState(0);
@@ -51,7 +51,7 @@ const CardsCart = (props) => {
         />
 
         <div className="info">
-          <h3>{props.name}</h3>
+          <h4>{props.name}</h4>
           <p id="codigo">{props.id}</p>
           <div className="footer">
             <div className="controls">
