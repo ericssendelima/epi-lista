@@ -1,5 +1,7 @@
 div .cart{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     width: 100%;
 }

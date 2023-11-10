@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import CardsCart from "../../components/CardsCart/CardsCart";
 import { Link } from "react-router-dom";
 import { EpiListContext } from "../../context/EpiListContext";
