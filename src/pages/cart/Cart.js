@@ -2,19 +2,28 @@ import React, { useContext } from "react";
 import CardsCart from "../../components/CardsCart/CardsCart";
 import { Link } from "react-router-dom";
 import { EpiListContext } from "../../context/EpiListContext";
+import { NomeContext } from "../../context/NomeContext.js";
+
 
 import "./Cart.css";
 import { Button } from "react-bootstrap";
 
 const Cart = () => {
   const { epiList } = useContext(EpiListContext);
+  const { colaborador } = useContext(NomeContext);
+
+  const { mat, nome } = colaborador;
+
+
 
   let texto = "";
 
   epiList.map((obj) => {
     texto += `
-   *  nome: ${obj.name}   
-   *  id: ${obj.id}                    
+   *  ${mat} - ${nome}
+
+   *  ${obj.name}   
+   *  Código: ${obj.id}                    
    *  quantidade: ${obj.quantidadeEpi}  
    
    `;
