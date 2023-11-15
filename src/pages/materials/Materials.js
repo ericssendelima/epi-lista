@@ -13,11 +13,11 @@ const Materials = () => {
   const [itens2, setItens2] = useState([]);
 
   const { mat, nome } = colaborador;
-
+//https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/epiList.json
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://raw.githubusercontent.com/ericssendelima/epi-images/main/epiList.json"
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/epiList.json"
       );
       const data = await res.data;
       setItens2(data);
