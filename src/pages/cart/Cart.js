@@ -16,18 +16,18 @@ const Cart = () => {
 
 
 
-  let texto = "";
+  let texto = `[  ${mat} - ${nome}  ]`;
 
   epiList.map((obj) => {
     texto += `
-   *  ${mat} - ${nome}
 
-   *  ${obj.name}   
-   *  Código: ${obj.id}                    
-   *  quantidade: ${obj.quantidadeEpi}  
-   
+      ${obj.name}     
+   -  Código SAP: ${obj.id}                    
+   -  quantidade: ${obj.quantidadeEpi}  
    `;
   });
+
+  console.log(texto)
 
   let conteudo = encodeURIComponent(texto)
     .replace(/['()]/g, escape)
