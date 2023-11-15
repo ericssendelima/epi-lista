@@ -14,12 +14,13 @@ export const Cards = (props) => {
     quantidadeEpi,
     image,
   };
-
   
 
   const Adicionar = () => {
-    setEpiList([...epiList, objControl]);
-    setDisableControl(true);
+    if (!epiList.filter((obj) => obj.id === objControl.id).length > 0) {
+      setEpiList([...epiList, objControl]);
+      setDisableControl(true);
+    }
   };
 
   return (
@@ -71,7 +72,12 @@ export const Cards = (props) => {
           justifyContent: "center",
         }}
       >
-        <Button onClick={Adicionar} disabled={disableControl} style={{ marginTop: "3px", width: "40px", height: "40px" }}>
+        <Button
+          className="buttonCard"
+          onClick={Adicionar}
+          disabled={disableControl}
+          style={{ marginTop: "3px", width: "40px", height: "40px" }}
+        >
           +
         </Button>
       </Card.Footer>

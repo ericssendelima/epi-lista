@@ -27,7 +27,7 @@ const Cart = () => {
    `;
   });
 
-  console.log(texto)
+  //console.log(texto)
 
   let conteudo = encodeURIComponent(texto)
     .replace(/['()]/g, escape)
@@ -36,7 +36,6 @@ const Cart = () => {
 
   const url = "https://api.whatsapp.com/send?text=" + conteudo;
 
-  //console.log(url);
 
   const enviar = () => {
     window.location.href = url;
