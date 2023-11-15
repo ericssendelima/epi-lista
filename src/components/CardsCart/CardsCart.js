@@ -17,7 +17,6 @@ const CardsCart = (props) => {
     image,
   };
 
-
   //funções
   const sum = () => {
     setQuantity(quantity + 1);
@@ -31,8 +30,8 @@ const CardsCart = (props) => {
 
   const Excluir = () => {
     setEpiList((prevEpiList) => {
-      return prevEpiList.filter((epi) => objControl.id !== epi.id)
-    })
+      return prevEpiList.filter((epi) => objControl.id !== epi.id);
+    });
   };
 
   return (
@@ -44,7 +43,7 @@ const CardsCart = (props) => {
             objectFit: "scale-down",
             maxWidth: "89px",
             marginRight: "15px",
-            boxSizing: "border-box"
+            boxSizing: "border-box",
           }}
           src={props.image}
           rounded
@@ -101,22 +100,21 @@ const CardsCart = (props) => {
               </Button>
             </div>
             <Button
-                variant="danger"
-                size="sm"
-                onClick={Excluir}
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  color: "black",
-                  borderRadius: "10px",
-                  margin: "1px",
-                  fontWeight: "bold",
-                }}
-              >
-                Excluir
-              </Button>
-            
+              variant="danger"
+              size="sm"
+              onClick={Excluir}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                color: "black",
+                borderRadius: "10px",
+                margin: "1px",
+                fontWeight: "bold",
+              }}
+            >
+              Excluir
+            </Button>
           </div>
         </div>
       </div>

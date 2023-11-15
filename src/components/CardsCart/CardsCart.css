@@ -7,7 +7,7 @@ div .container{
     border-radius: 10px;
     border: 2px solid rgb(74, 71, 71);
     height: 150px;
-    width: 25rem;
+    width: 23rem;
     padding-bottom: 5px;
     margin-top: 20px;
 }
@@ -23,23 +23,22 @@ div .header{
 
 div .footer{
     box-sizing: border-box;
-     /* background-color: blueviolet; */
+    /* background-color: blueviolet; */
     display: flex;
-    justify-content:space-between;
-    align-items: baseline;
     padding-left: 0;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
-div .controls{
+ div .controls{
     box-sizing: border-box;
    /* background-color: rgb(226, 76, 43); */
-    display: flex;
-    justify-content: flex-end;
+     display: flex;
+    justify-content: space-around;
     align-items: baseline;
-    padding-right: 130px;
     padding-left: 0;
-    width: 210px;
+    width: 40%;
     
     
 }
@@ -50,7 +49,8 @@ div .info{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: black
+    color: black;
+    width: 80%;
 }
 
 p #codigo, #quantidade{
