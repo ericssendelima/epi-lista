@@ -15,7 +15,7 @@ export const Cards = (props) => {
     image,
   };
   
-
+//se for = 0 seta o objControl completo, se não, seta apenas a quantidade 
   const Adicionar = () => {
     if (!epiList.filter((obj) => obj.id === objControl.id).length > 0) {
       setEpiList([...epiList, objControl]);
