@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { EpiListContext } from "../../context/EpiListContext";
 
 import { Card, Button } from "react-bootstrap";
@@ -6,9 +6,8 @@ import { Card, Button } from "react-bootstrap";
 export const Cards = (props) => {
   const { epiList, setEpiList } = useContext(EpiListContext);
 
-  let { id, name, quantidadeEpi, image, disableControl } = props;
+  let { id, name, quantidadeEpi, image } = props;
 
-  const [disableButton, setDisableButton] = useState(disableControl);
 
   //criar um objeto para controlar aqueles que serão adicionados no cartContext
   const objControl = {
@@ -16,29 +15,13 @@ export const Cards = (props) => {
     name,
     quantidadeEpi,
     image,
-    disableControl,
   };
 
   //se for = 0 seta o objControl completo, se não, seta apenas a quantidade
   const Adicionar = () => {
     if (!epiList.filter((obj) => obj.id === objControl.id).length > 0) {
-      setDisableButton(true);
-      objControl.disableControl = true;
       setEpiList([...epiList, objControl]);
     }
-  };
-
-  const addStyle = () => {
-    if (disableButton) {
-      return {
-        marginTop: "3px",
-        width: "100px",
-        height: "40px",
-        backgroundColor: "red",
-        border: "none",
-      };
-    }
-    return { marginTop: "3px", width: "100px", height: "40px" };
   };
 
   return (
@@ -93,8 +76,7 @@ export const Cards = (props) => {
         <Button
           className="buttonCard"
           onClick={Adicionar}
-          disabled={disableButton}
-          style={addStyle()}
+          style={{ marginTop: "3px", width: "100px", height: "40px" }}
         >
           Adicionar
         </Button>

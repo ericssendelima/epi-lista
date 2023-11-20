@@ -3,6 +3,8 @@ import "./Materials.css";
 import React, { useEffect, useState, useContext } from "react";
 
 import { NomeContext } from "../../context/NomeContext.js";
+import { EpiListContext } from "../../context/EpiListContext";
+
 
 import { Cards } from "../../components/cards/Cards.js";
 import { Button } from "react-bootstrap";
@@ -13,6 +15,8 @@ const Materials = () => {
   const navigate = useNavigate();
 
   const { colaborador } = useContext(NomeContext);
+  const { epiList } = useContext(EpiListContext);
+
 
   const [itens2, setItens2] = useState([]);
 
@@ -50,6 +54,7 @@ const Materials = () => {
       <div className="divMaterialsList">
         <ol className="materialsList" style={{padding:"0"}} >
           {itens2.map((item) => (
+            !epiList.filter(epi=>epi.id === item.id).length > 0 &&
             <li className="materialItems" key={item.id}>
               <Cards
                 id={item.id}

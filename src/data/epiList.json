@@ -3,92 +3,79 @@
     "id": 30773,
     "name": "Filtro P2",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
   },
   {
     "id": 26557,
     "name": "Mapa tam: 7",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
   },
   {
     "id": 26559,
     "name": "Mapa tam: 8",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
   },
   {
     "id": 26620,
     "name": "Mapa tam: 9",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
   },
   {
     "id": 18163,
     "name": "Luva de Vaqueta",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaVaqueta.webp",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaVaqueta.webp"
   },
   {
     "id": 18839,
     "name": "Óculos de Metalização",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculos-metalizacao.webp",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculos-metalizacao.webp"
   },
   {
     "id": 18825,
     "name": "Protetor auditivo",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorAuditivo.png",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorAuditivo.png"
   },
   {
     "id": 18181,
     "name": "Óculos ampla visão",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/Ampla%20vis%C3%A3o.jpg",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/Ampla%20vis%C3%A3o.jpg"
   },
   {
     "id": 18864,
     "name": "Máscara 3M - Tam: P",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
   },
   {
     "id": 18865,
     "name": "Máscara 3M - Tam: M",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
   },
   {
     "id": 18860,
     "name": "Máscara 3M - Tam: G",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
   },
   {
     "id": 18306,
     "name": "Capacete de Jato",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetedejato.jpg",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetedejato.jpg"
   },
   {
     "id": 25164,
     "name": "Protetor concha",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorconcha.webp",
-    "disableControl": false
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorconcha.webp"
   }
 
 ]
