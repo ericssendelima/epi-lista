@@ -70,8 +70,13 @@
     "name": "Capacete de Jato",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetedejato.jpg"
+  },
+  {
+    "id": 25164,
+    "name": "Protetor concha",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorconcha.webp"
   }
-  
 
 ]
 
