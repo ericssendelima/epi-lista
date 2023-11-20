@@ -6,15 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { EpiLisContextProvider } from "./context/EpiListContext";
 import { NomeContextProvider } from "./context/NomeContext";
+import { AddButtonContext } from "./context/AddButtonContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <NomeContextProvider>
-        <EpiLisContextProvider>
+    <NomeContextProvider>
+      <EpiLisContextProvider>
+        <AddButtonContext>
           <App />
-        </EpiLisContextProvider>
-      </NomeContextProvider>
+        </AddButtonContext>
+      </EpiLisContextProvider>
+    </NomeContextProvider>
   </React.StrictMode>
 );
 
