@@ -64,6 +64,12 @@
     "name": "Máscara 3M - Tam: G",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
+  },
+  {
+    "id": 18306,
+    "name": "Capacete de Jato",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetedejato.jpg"
   }
   
 

@@ -45,7 +45,6 @@ const CardsCart = (props) => {
     });
     setEpiList(newArr);
 
-    console.log(epiList);
     }else{
       setEpiList((prevEpiList) => {
         return prevEpiList.filter((epi) => objControl.id !== epi.id);
