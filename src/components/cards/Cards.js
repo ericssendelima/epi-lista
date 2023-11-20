@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useState, useContext } from "react";
 import { EpiListContext } from "../../context/EpiListContext";
 
 import { Card, Button } from "react-bootstrap";
@@ -6,8 +6,9 @@ import { Card, Button } from "react-bootstrap";
 export const Cards = (props) => {
   const { epiList, setEpiList } = useContext(EpiListContext);
 
- // const [disableControl, setDisableControl] = useState(false);
   let { id, name, quantidadeEpi, image, disableControl } = props;
+
+  const [disableButton, setDisableButton] = useState(disableControl);
 
   //criar um objeto para controlar aqueles que serão adicionados no cartContext
   const objControl = {
@@ -15,32 +16,29 @@ export const Cards = (props) => {
     name,
     quantidadeEpi,
     image,
-    disableControl
+    disableControl,
   };
-  
-//se for = 0 seta o objControl completo, se não, seta apenas a quantidade 
+
+  //se for = 0 seta o objControl completo, se não, seta apenas a quantidade
   const Adicionar = () => {
-    
-    epiList.map((obj) => {
-      if (obj.name !== objControl.name) {
-        disableControl = true;
-        setEpiList([...epiList, objControl]);
-      };
-      return obj;
-    });
-    
-  
-    // if (!epiList.filter((obj) => obj.id === objControl.id).length > 0) {
-    //   setEpiList([...epiList, objControl]);
-    //   setDisableControl(true);
-    // }
+    if (!epiList.filter((obj) => obj.id === objControl.id).length > 0) {
+      setDisableButton(true);
+      objControl.disableControl = true;
+      setEpiList([...epiList, objControl]);
+    }
   };
 
   const addStyle = () => {
-    if(disableControl){
-      return { marginTop: "3px", width: "100px", height: "40px", backgroundColor: "red", border: "none" };
-    };
-    return { marginTop: "3px", width: "100px", height: "40px"}
+    if (disableButton) {
+      return {
+        marginTop: "3px",
+        width: "100px",
+        height: "40px",
+        backgroundColor: "red",
+        border: "none",
+      };
+    }
+    return { marginTop: "3px", width: "100px", height: "40px" };
   };
 
   return (
@@ -95,7 +93,7 @@ export const Cards = (props) => {
         <Button
           className="buttonCard"
           onClick={Adicionar}
-          disabled={disableControl}
+          disabled={disableButton}
           style={addStyle()}
         >
           Adicionar
