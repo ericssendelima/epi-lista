@@ -6,8 +6,20 @@
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
   },
   {
+    "id": 26557,
+    "name": "Mapa tam: 7",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  },
+  {
     "id": 26559,
-    "name": "Luva de Mapa 8",
+    "name": "Mapa tam: 8",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  },
+  {
+    "id": 26620,
+    "name": "Mapa tam: 9",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
   },
@@ -28,6 +40,12 @@
     "name": "Protetor auditivo",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorAuditivo.png"
+  },
+  {
+    "id": 18181,
+    "name": "Óculos ampla visão",
+    "quantidadeEpi": 1,
+    "image": ""
   }
 
 ]
