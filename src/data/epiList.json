@@ -46,7 +46,26 @@
     "name": "Óculos ampla visão",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/Ampla%20vis%C3%A3o.jpg"
+  },
+  {
+    "id": 18864,
+    "name": "Máscara 3M - Tam: P",
+    "quantidadeEpi": 1,
+    "image": ""
+  },
+  {
+    "id": 18865,
+    "name": "Máscara 3M - Tam: M",
+    "quantidadeEpi": 1,
+    "image": ""
+  },
+  {
+    "id": 18860,
+    "name": "Máscara 3M - Tam: G",
+    "quantidadeEpi": 1,
+    "image": ""
   }
+  
 
 ]
 
