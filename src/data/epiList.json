@@ -3,25 +3,25 @@
     "id": 30773,
     "name": "Filtro P2",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-images/main/filtroP2.webp"
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
   },
   {
     "id": 26559,
     "name": "Luva de Mapa 8",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-images/main/luvaMapa.png"
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
   },
   {
     "id": 18163,
     "name": "Luva de Vaqueta",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-images/main/luvaVaqueta.webp"
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaVaqueta.webp"
   },
   {
     "id": 18839,
     "name": "Óculos de Metalização",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-images/main/oculos-metalizacao.webp"
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculos-metalizacao.webp"
   }
 ]
 

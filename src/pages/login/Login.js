@@ -1,19 +1,31 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { NomeContext } from "../../context/NomeContext.js";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
+
 
 export const Login = () => {
   const navigate = useNavigate();
   const { setColaborador } = useContext(NomeContext);
   const [matricula, setMatricula] = useState("");
+  const [user, setUser] = useState([])
   
-  const user = [
-    { mat: 2176, nome: "Dênis"},
-    { mat: 2073, nome: "Yalê" },
-    { mat: 2072, nome: "Joel" },
-    { mat: 2218, nome: "Tiago"}
-  ];
+  const getData = async () => {
+    try {
+      const res = await axios.get(
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/jatistasList.json"
+      );
+      const data = await res.data;
+      setUser(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   const doIt = async (e) => {
     e.preventDefault()
