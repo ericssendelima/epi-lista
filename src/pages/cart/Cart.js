@@ -22,6 +22,7 @@ const Cart = () => {
    -  Código SAP: ${obj.id}                    
    -  quantidade: ${obj.quantidadeEpi}  
    `;
+   return obj;
   });
 
   //console.log(texto)
@@ -37,11 +38,13 @@ const Cart = () => {
     window.location.href = url;
   };
 
+
   return (
     <div className="cart">
       <div className="itemsCartList">
-        <ul id="cartList" style={{paddingLeft: "0"}}>
+        <ul id="cartList" style={{ paddingLeft: "0" }}>
           {epiList.map((item) => (
+
             <li key={item.id}>
               <CardsCart
                 id={item.id}

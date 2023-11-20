@@ -5,10 +5,10 @@ import { Button, Image } from "react-bootstrap";
 import "./CardsCart.css";
 
 const CardsCart = (props) => {
-  const { setEpiList } = useContext(EpiListContext);
+  const { epiList, setEpiList } = useContext(EpiListContext);
   let { id, name, quantidadeEpi, image } = props;
 
-  const [quantity, setQuantity] = useState(0);
+  const [quantity, setQuantity] = useState(quantidadeEpi);
 
   const objControl = {
     id,
@@ -19,12 +19,37 @@ const CardsCart = (props) => {
 
   //funções
   const sum = () => {
-    setQuantity(quantity + 1);
+    setQuantity(prevQuantity => prevQuantity + 1);
+
+    let newArr = epiList.map((obj) => {
+      if (obj.name === objControl.name) {
+        obj.quantidadeEpi = quantity + 1;
+      }
+      return obj;
+    });
+    setEpiList(newArr);
+
+    console.log(epiList);
+    //objControl.quantidadeEpi = quantity;
   };
 
   const sub = () => {
-    if (quantity > 0) {
-      setQuantity(quantity - 1);
+    if (quantity > 1) {
+      setQuantity(prevQuantity => prevQuantity - 1);
+
+    let newArr = epiList.map((obj) => {
+      if (obj.name === objControl.name) {
+        obj.quantidadeEpi = quantity - 1;
+      }
+      return obj;
+    });
+    setEpiList(newArr);
+
+    console.log(epiList);
+    }else{
+      setEpiList((prevEpiList) => {
+        return prevEpiList.filter((epi) => objControl.id !== epi.id);
+      });
     }
   };
 
@@ -50,7 +75,7 @@ const CardsCart = (props) => {
         />
 
         <div className="info">
-          <h4>{props.name}</h4>
+          <h5>{props.name}</h5>
           <p id="codigo">{props.id}</p>
           <div className="footer">
             <div className="controls">
