@@ -56,6 +56,7 @@ const Materials = () => {
                 name={item.name}
                 quantidadeEpi={item.quantidadeEpi}
                 image={item.image}
+                disableControl={item.disableControl}
               />
             </li>
           ))}
