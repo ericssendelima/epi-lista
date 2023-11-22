@@ -21,7 +21,7 @@ const Cart = () => {
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/pitoresList.json"
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/colaboradoresList.json"
       );
       const data = await res.data;
       setUser(data);
