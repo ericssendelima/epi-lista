@@ -1,0 +1,24 @@
+[
+  {
+    "id": 30773,
+    "name": "Filtro P2",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
+  },
+  {
+    "id": 26557,
+    "name": "Mapa tam: 7",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  },
+  {
+    "id": 26559,
+    "name": "Mapa tam: 8",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  }
+  
+]
+
+
+

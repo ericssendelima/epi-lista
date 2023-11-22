@@ -14,7 +14,7 @@ export const Login = () => {
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/jatistasList.json"
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/pitoresList.json"
       );
       const data = await res.data;
       setUser(data);
@@ -30,11 +30,16 @@ export const Login = () => {
   const doIt = async (e) => {
     e.preventDefault()
 
-    if (user.map((user) => Object.values(user).shift()).includes(matricula)) {
-      const result =  user.filter((user) => user.mat === matricula)[0];
-     await setColaborador(result);
-      navigate("/Materials")    
-    }
+    if (user.jatistas.map((user) => Object.values(user).shift()).includes(matricula)) {
+      const result =  user.jatistas.filter((user) => user.mat === matricula)[0];
+      await setColaborador(result);
+      navigate("/Materials"); 
+
+    }else if (user.pintores.map((user) => Object.values(user).shift()).includes(matricula)){
+      const result =  user.pintores.filter((user) => user.mat === matricula)[0];
+      await setColaborador(result);
+      navigate("/materiaisPintores"); 
+    };
   };
 
   return (
