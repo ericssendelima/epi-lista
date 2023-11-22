@@ -48,6 +48,12 @@
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/Ampla%20vis%C3%A3o.jpg"
   },
   {
+    "id": 18796,
+    "name": "Lente ampla visão",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/lenteamplavisao.webp"
+  },
+  {
     "id": 18864,
     "name": "Máscara 3M - Tam: P",
     "quantidadeEpi": 1,
@@ -72,16 +78,16 @@
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetedejato.jpg"
   },
   {
+    "id": 27802,
+    "name": "Carneira Cap. Jato",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/carneiracapacedejato.jpeg"
+  },
+  {
     "id": 25164,
     "name": "Protetor concha",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorconcha.webp"
-  },
-  {
-    "id": 18796,
-    "name": "Lente ampla visão",
-    "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/lenteamplavisao.webp"
   },
   {
     "id": 18184,

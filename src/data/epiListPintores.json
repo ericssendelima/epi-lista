@@ -1,9 +1,165 @@
 [
   {
-    "id": 30773,
-    "name": "Filtro P2",
+    "id": 18810,
+    "name": "Tyvec - Tam: G",
     "quantidadeEpi": 1,
-    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/tyvek.jpg"
+  },
+  {
+    "id": 24947,
+    "name": "Tyvec - Tam: GG",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/tyvek.jpg"
+  },
+  {
+    "id": 33541,
+    "name": "Luva nitrilica GRANDE",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvanitrilica.webp"
+  },
+  {
+    "id": 27860,
+    "name": "Luva nitrilica Tam: 7",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvanitrilica.webp"
+  },
+  {
+    "id": 27861,
+    "name": "Luva nitrilica Tam: 8",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvanitrilica.webp"
+  },
+  {
+    "id": 27862,
+    "name": "Luva nitrilica Tam: 9",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvanitrilica.webp"
+  },
+  {
+    "id": 19138,
+    "name": "Máscara facial Tam: P",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/mascarafacialinteira.jpg"
+  },
+  {
+    "id": 19137,
+    "name": "Máscara facial Tam: M",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/mascarafacialinteira.jpg"
+  },
+  {
+    "id": 19139,
+    "name": "Máscara facial Tam: G",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/mascarafacialinteira.jpg"
+  },
+  {
+    "id": 18781,
+    "name": "Cartucho 3M",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/cartucho3m.jpg"
+  },
+  {
+    "id": 23373,
+    "name": "Retentor 5n11",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/retentor5n11.webp"
+  },
+  {
+    "id": 23368,
+    "name": "Filtro 5n11",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtro5n11.webp"
+  },
+  {
+    "id": 18786,
+    "name": "Filme máscara",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filmemascarafacial.webp"
+  },
+  {
+    "id": 22539,
+    "name": "Tirante máscara",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/tirantemascarafacialinteira.jpg"
+  },
+  {
+    "id": 18782,
+    "name": "Cinto de segurança",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/cintodeseguranca.jpg"
+  },
+  {
+    "id": 18192,
+    "name": "Talabarte",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/talabarte.jpg"
+  },
+  {
+    "id": 18161,
+    "name": "Luva pigmentada",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvapigmentada.jpg"
+  },
+    {
+    "id": 18825,
+    "name": "Protetor auditivo",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorAuditivo.png"
+  },
+  {
+    "id": 25086,
+    "name": "Abafador capacete",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/abafadorcapacete.jpg"
+  },
+  {
+    "id": 18866,
+    "name": "Abafador concha",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/abafadorconchaamarelo.jpg"
+  },
+  {
+    "id": 18185,
+    "name": "Óculos seg. escuro",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossegescuro.webp"
+  },
+  {
+    "id": 38274,
+    "name": "Óculos seg. incolor",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossegincolor.jpg"
+  },
+  {
+    "id": 18181,
+    "name": "Óculos ampla visão",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/Ampla%20vis%C3%A3o.jpg"
+  },
+  {
+    "id": 18796,
+    "name": "Lente ampla visão",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/lenteamplavisao.webp"
+  },
+  {
+    "id": 18184,
+    "name": "Óculos sobrepor",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossobrepor.jpg"
+  },
+  {
+    "id": 18134,
+    "name": "Creme luvex",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/cremeluvex.webp"
+  },
+  {
+    "id": 25207,
+    "name": "Protetor solar",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorsolar.png"
   },
   {
     "id": 26557,
@@ -16,6 +172,84 @@
     "name": "Mapa tam: 8",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  },
+  {
+    "id": 26620,
+    "name": "Mapa tam: 9",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/luvaMapa.png"
+  },
+  {
+    "id": 25085,
+    "name": "Capacete branco",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetebranco3m.jpg"
+  },
+  {
+    "id": 25380,
+    "name": "Capacete Vermelho",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetevermelho.jpg"
+  },
+  {
+    "id": 25468,
+    "name": "Carneira catraca",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/carneiracatraca.jpg"
+  },
+  {
+    "id": 26009,
+    "name": "Jugular",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/jugular.jpg"
+  },
+  {
+    "id": 18864,
+    "name": "Máscara 3M - Tam: P",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
+  },
+  {
+    "id": 18865,
+    "name": "Máscara 3M - Tam: M",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
+  },
+  {
+    "id": 18860,
+    "name": "Máscara 3M - Tam: G",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/m%20semi%20facial.jpg"
+  },
+  {
+    "id": 30773,
+    "name": "Filtro P2",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/filtroP2.webp"
+  },
+  {
+    "id": 25262,
+    "name": "Anel de vedação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/aneldevedacao.jpg"
+  },
+  {
+    "id": 25725,
+    "name": "Tirante",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/tirante.webp"
+  },
+  {
+    "id": 25260,
+    "name": "Válvula exalação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/valvuladeexalacao.jpg"
+  },
+  {
+    "id": 25261,
+    "name": "Válvula inalação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/valvuladeinalacao.webp"
   }
   
 ]
