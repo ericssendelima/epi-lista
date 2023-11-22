@@ -8,14 +8,14 @@ import { EpiListContext } from "../../context/EpiListContext";
 
 import { Cards } from "../../components/cards/Cards.js";
 import { Button } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const MateriaisPintores = () => {
     const navigate = useNavigate();
 
   const { colaborador } = useContext(NomeContext);
-  const { epiList } = useContext(EpiListContext);
+  const { epiList, setEpiList } = useContext(EpiListContext);
 
 
   const [itens2, setItens2] = useState([]);
@@ -25,7 +25,7 @@ const MateriaisPintores = () => {
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/epiList.json"
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/epiListPintores.json"
       );
       const data = await res.data;
       setItens2(data);
@@ -42,10 +42,17 @@ const MateriaisPintores = () => {
     navigate("/Cart");
   };
 
+  const voltar = () => {
+    setEpiList([]);
+    navigate("/");
+  };
+
   return (
     <div className="materials">
-    <h1>Pintores, rodando</h1>
-      <Link to="/">Voltar</Link>
+    <h1>Pintor</h1>
+    <Button onClick={voltar}>
+        Voltar
+      </Button>
       <p id="dados" style={{display: "flex",
     color: "white",
     justifyContent: "center"}}>{mat}</p>

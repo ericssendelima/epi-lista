@@ -8,14 +8,14 @@ import { EpiListContext } from "../../context/EpiListContext";
 
 import { Cards } from "../../components/cards/Cards.js";
 import { Button } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Materials = () => {
   const navigate = useNavigate();
 
   const { colaborador } = useContext(NomeContext);
-  const { epiList } = useContext(EpiListContext);
+  const { epiList, setEpiList } = useContext(EpiListContext);
 
 
   const [itens2, setItens2] = useState([]);
@@ -42,9 +42,18 @@ const Materials = () => {
     navigate("/Cart");
   };
 
+  const voltar = () => {
+    setEpiList([]);
+    navigate("/");
+  };
+
+
   return (
     <div className="materials">
-      <Link to="/">Voltar</Link>
+    <h1>Jatista</h1>
+      <Button style={{height: "50px", width: "240px"}} variant="info" size="lg" onClick={voltar}>
+        Voltar
+      </Button>
       <p id="dados" style={{display: "flex",
     color: "white",
     justifyContent: "center"}}>{mat}</p>

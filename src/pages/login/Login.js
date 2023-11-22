@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { NomeContext } from "../../context/NomeContext.js";
+
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -8,13 +9,14 @@ import axios from "axios";
 export const Login = () => {
   const navigate = useNavigate();
   const { setColaborador } = useContext(NomeContext);
+
   const [matricula, setMatricula] = useState("");
   const [user, setUser] = useState([])
   
   const getData = async () => {
     try {
       const res = await axios.get(
-        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/pitoresList.json"
+        "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/data/colaboradoresList.json"
       );
       const data = await res.data;
       setUser(data);
