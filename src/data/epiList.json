@@ -76,7 +76,104 @@
     "name": "Protetor concha",
     "quantidadeEpi": 1,
     "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorconcha.webp"
+  },
+  {
+    "id": 18796,
+    "name": "Lente ampla visão",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/lenteamplavisao.webp"
+  },
+  {
+    "id": 18184,
+    "name": "Óculos sobrepor",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossobrepor.jpg"
+  },
+  {
+    "id": 25085,
+    "name": "Capacete branco",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetebranco3m.jpg"
+  },
+  {
+    "id": 25380,
+    "name": "Capacete Vermelho",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/capacetevermelho.jpg"
+  },
+  {
+    "id": 25468,
+    "name": "Carneira catraca",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/carneiracatraca.jpg"
+  },
+  {
+    "id": 26009,
+    "name": "Jugular",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/jugular.jpg"
+  },
+  {
+    "id": 25262,
+    "name": "Anel de vedação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/aneldevedacao.jpg"
+  },
+  {
+    "id": 25725,
+    "name": "Tirante",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/tirante.webp"
+  },
+  {
+    "id": 25260,
+    "name": "Válvula exalação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/valvuladeexalacao.jpg"
+  },
+  {
+    "id": 25261,
+    "name": "Válvula inalação",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/valvuladeinalacao.webp"
+  },
+  {
+    "id": 25086,
+    "name": "Abafador capacete",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/abafadorcapacete.jpg"
+  },
+  {
+    "id": 18866,
+    "name": "Abafador concha",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/abafadorconchaamarelo.jpg"
+  },
+  {
+    "id": 18134,
+    "name": "Creme luvex",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/cremeluvex.webp"
+  },
+  {
+    "id": 25207,
+    "name": "Protetor solar",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/protetorsolar.png"
+  },
+  {
+    "id": 18185,
+    "name": "Óculos seg. escuro",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossegescuro.webp"
+  },
+  {
+    "id": 38274,
+    "name": "Óculos seg. incolor",
+    "quantidadeEpi": 1,
+    "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/oculossegincolor.jpg"
   }
-
 ]
+
+
 

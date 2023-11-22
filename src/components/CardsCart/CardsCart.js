@@ -28,9 +28,6 @@ const CardsCart = (props) => {
       return obj;
     });
     setEpiList(newArr);
-
-    console.log(epiList);
-    //objControl.quantidadeEpi = quantity;
   };
 
   const sub = () => {
