@@ -1,0 +1,178 @@
+{
+  "camisas": [
+    {
+      "id": 38864,
+      "name": "Camisa malha LONGA TAM: P",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaLonga.jpg"
+    },
+    {
+      "id": 38865,
+      "name": "Camisa malha LONGA TAM: M",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaLonga.jpg"
+    },
+    {
+      "id": 38866,
+      "name": "Camisa malha LONGA TAM: G",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaLonga.jpg"
+    },
+    {
+      "id": 38867,
+      "name": "Camisa malha LONGA TAM: GG",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaLonga.jpg"
+    },
+    {
+      "id": 38868,
+      "name": "Camisa malha CURTA TAM: P",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaCurta.jpg"
+    },
+    {
+      "id": 38869,
+      "name": "Camisa malha CURTA TAM: M",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaCurta.jpg"
+    },
+    {
+      "id": 38870,
+      "name": "Camisa malha CURTA TAM: G",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaCurta.jpg"
+    },
+    {
+      "id": 38871,
+      "name": "Camisa malha CURTA TAM: GG",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/camisaCurta.jpg"
+    }
+  ],
+  "calcas": [
+    {
+      "id": 18109,
+      "name": "calça TAM: P",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/calca.jpg"
+    },
+    {
+      "id": 18108,
+      "name": "calça TAM: M",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/calca.jpg"
+    },
+    {
+      "id": 18106,
+      "name": "calça TAM: G",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/calca.jpg"
+    },
+    {
+      "id": 18107,
+      "name": "calça TAM: GG",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/calca.jpg"
+    },
+    {
+      "id": 18110,
+      "name": "calça TAM: XG",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/calca.jpg"
+    }
+  ],
+  "botas": [
+    {
+      "id": 26621,
+      "name": "Bota N°: 35",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26623,
+      "name": "Bota N°: 36",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26624,
+      "name": "Bota N°: 37",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26625,
+      "name": "Bota N°: 38",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26626,
+      "name": "Bota N°: 39",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26627,
+      "name": "Bota N°: 40",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26628,
+      "name": "Bota N°: 41",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26629,
+      "name": "Bota N°: 42",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26630,
+      "name": "Bota N°: 43",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26631,
+      "name": "Bota N°: 44",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    },
+    {
+      "id": 26632,
+      "name": "Bota N°: 45",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/bota.png"
+    }
+  ],
+  "macacao": [
+    {
+      "id": 18809,
+      "name": "Macacão TAM: P",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/macacaoJato.webp"
+    },
+    {
+      "id": 18808,
+      "name": "Macacão TAM: M",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/macacaoJato.webp"
+    },
+    {
+      "id": 18806,
+      "name": "Macacão TAM: G",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/macacaoJato.webp"
+    },
+    {
+      "id": 18807,
+      "name": "Macacão TAM: GG",
+      "quantidadeEpi": 1,
+      "image": "https://raw.githubusercontent.com/ericssendelima/epi-lista/main/src/images/macacaoJato.webp"
+    }
+  ]
+}
