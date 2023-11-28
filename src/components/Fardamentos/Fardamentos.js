@@ -16,6 +16,10 @@ const Fardamentos = () => {
   const [calca, setCalca] = useState(0);
   const [bota, setBota] = useState(0);
   const [macacao, setMacacao] = useState(0);
+  const [onDisableCamisa, setOnDisableCamisa] = useState(false);
+  const [onDisableCalca, setOnDisableCalca] = useState(false);
+  const [onDisableBota, setOnDisableBota] = useState(false);
+  const [onDisableMacacao, setOnDisableMacacao] = useState(false);
 
   const getDataFardamentos = async () => {
     try {
@@ -33,7 +37,6 @@ const Fardamentos = () => {
     getDataFardamentos();
   }, []);
 
- 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -44,33 +47,40 @@ const Fardamentos = () => {
         ...epiList,
         ...fardamentos.camisas.filter((camisaItem) => camisaItem.id === camisa),
       ]);
-    };
+      setOnDisableCamisa(true);
+    }
   };
   const addCalca = () => {
     if (calca > 0 && !epiList.filter((epi) => epi.id === calca).length > 0) {
-        setEpiList([
-          ...epiList,
-          ...fardamentos.calcas.filter((calcaItem) => calcaItem.id === calca),
-        ]);
-      };
+      setEpiList([
+        ...epiList,
+        ...fardamentos.calcas.filter((calcaItem) => calcaItem.id === calca),
+      ]);
+      setOnDisableCalca(true);
+    }
   };
   const addBota = () => {
     if (bota > 0 && !epiList.filter((epi) => epi.id === bota).length > 0) {
-        setEpiList([
-          ...epiList,
-          ...fardamentos.botas.filter((botaItem) => botaItem.id === bota),
-        ]);
-      };
+      setEpiList([
+        ...epiList,
+        ...fardamentos.botas.filter((botaItem) => botaItem.id === bota),
+      ]);
+      setOnDisableBota(true);
+    }
   };
   const addMacacao = () => {
-    if (macacao > 0 && !epiList.filter((epi) => epi.id === macacao).length > 0) {
-        setEpiList([
-          ...epiList,
-          ...fardamentos.macacao.filter(
-            (macacaoItem) => macacaoItem.id === macacao
-          ),
-        ]);
-      };
+    if (
+      macacao > 0 &&
+      !epiList.filter((epi) => epi.id === macacao).length > 0
+    ) {
+      setEpiList([
+        ...epiList,
+        ...fardamentos.macacao.filter(
+          (macacaoItem) => macacaoItem.id === macacao
+        ),
+      ]);
+      setOnDisableMacacao(true);
+    }
   };
 
   return (
@@ -114,8 +124,12 @@ const Fardamentos = () => {
                     <option value={38871}>Camisa malha CURTA TAM: GG</option>
                   </select>
                 </label>
-                <Button id="addFardamento" onClick={addCamisa}>
-                  Adicionar
+                <Button
+                  id="addFardamento"
+                  onClick={addCamisa}
+                  disabled={onDisableCamisa}
+                >
+                  {onDisableCamisa ? "Ok" : "Adicionar"}
                 </Button>
               </div>
               <div className="selectFardamento" id="selectCalca">
@@ -133,8 +147,12 @@ const Fardamentos = () => {
                     <option value={18110}>calça TAM: XG</option>
                   </select>
                 </label>
-                <Button id="addFardamento" onClick={addCalca}>
-                  Adicionar
+                <Button
+                  id="addFardamento"
+                  onClick={addCalca}
+                  disabled={onDisableCalca}
+                >
+                  {onDisableCalca ? "Ok" : "Adicionar"}
                 </Button>
               </div>
 
@@ -159,8 +177,12 @@ const Fardamentos = () => {
                     <option value={26632}>Bota N°: 45</option>
                   </select>
                 </label>
-                <Button id="addFardamento" onClick={addBota}>
-                  Adicionar
+                <Button
+                  id="addFardamento"
+                  onClick={addBota}
+                  disabled={onDisableBota}
+                >
+                  {onDisableBota ? "Ok" : "Adicionar"}
                 </Button>
               </div>
 
@@ -178,8 +200,12 @@ const Fardamentos = () => {
                     <option value={18807}>Macacão TAM: GG</option>
                   </select>
                 </label>
-                <Button id="addFardamento" onClick={addMacacao}>
-                  Adicionar
+                <Button
+                  id="addFardamento"
+                  onClick={addMacacao}
+                  disabled={onDisableMacacao}
+                >
+                  {onDisableMacacao ? "Ok" : "Adicionar"}
                 </Button>
               </div>
             </form>

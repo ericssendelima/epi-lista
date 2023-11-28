@@ -8,7 +8,6 @@ export const Cards = (props) => {
 
   let { id, name, quantidadeEpi, image } = props;
 
-
   //criar um objeto para controlar aqueles que serão adicionados no cartContext
   const objControl = {
     id,
@@ -76,7 +75,15 @@ export const Cards = (props) => {
         <Button
           className="buttonCard"
           onClick={Adicionar}
-          style={{ marginTop: "3px", width: "100px", height: "40px" }}
+          style={{
+            backgroundColor: "rgb(109, 181, 233)",
+            color: "rgb(13, 13, 88)",
+            border: "none",
+            marginTop: "3px",
+            width: "100px",
+            height: "40px",
+            fontWeight:"bold"
+          }}
         >
           Adicionar
         </Button>

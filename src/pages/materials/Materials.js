@@ -138,6 +138,7 @@ const Materials = () => {
             color: "rgb(13, 13, 88)",
             backgroundColor: "rgb(109, 181, 233)",
             border: "none",
+            fontWeight:"bold"
           }}
           variant="info"
           size="lg"

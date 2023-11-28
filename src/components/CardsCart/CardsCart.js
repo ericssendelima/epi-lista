@@ -19,7 +19,7 @@ const CardsCart = (props) => {
 
   //funções
   const sum = () => {
-    setQuantity(prevQuantity => prevQuantity + 1);
+    setQuantity((prevQuantity) => prevQuantity + 1);
 
     let newArr = epiList.map((obj) => {
       if (obj.name === objControl.name) {
@@ -32,17 +32,16 @@ const CardsCart = (props) => {
 
   const sub = () => {
     if (quantity > 1) {
-      setQuantity(prevQuantity => prevQuantity - 1);
+      setQuantity((prevQuantity) => prevQuantity - 1);
 
-    let newArr = epiList.map((obj) => {
-      if (obj.name === objControl.name) {
-        obj.quantidadeEpi = quantity - 1;
-      }
-      return obj;
-    });
-    setEpiList(newArr);
-
-    }else{
+      let newArr = epiList.map((obj) => {
+        if (obj.name === objControl.name) {
+          obj.quantidadeEpi = quantity - 1;
+        }
+        return obj;
+      });
+      setEpiList(newArr);
+    } else {
       setEpiList((prevEpiList) => {
         return prevEpiList.filter((epi) => objControl.id !== epi.id);
       });
@@ -89,6 +88,9 @@ const CardsCart = (props) => {
                   borderRadius: "8px",
                   margin: "0",
                   fontWeight: "bold",
+                  color: "rgb(13, 13, 88)",
+                  backgroundColor: "rgb(109, 181, 233)",
+                  border: "none",
                 }}
               >
                 {"-"}
@@ -115,6 +117,9 @@ const CardsCart = (props) => {
                   borderRadius: "8px",
                   margin: "1px",
                   fontWeight: "bold",
+                  color: "rgb(13, 13, 88)",
+                  backgroundColor: "rgb(109, 181, 233)",
+                  border: "none",
                 }}
               >
                 {"+"}

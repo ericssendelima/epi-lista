@@ -84,8 +84,8 @@ const Cart = () => {
         </ul>
       </div>
       <div className="footerCart">
-        <Button onClick={voltar}>Voltar</Button>
-        <Button onClick={enviar}>Enviar</Button>
+        <Button id="buttonCart" onClick={voltar}>Voltar</Button>
+        <Button id="buttonCart"onClick={enviar}>Enviar</Button>
       </div>
     </div>
   );

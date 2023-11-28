@@ -68,4 +68,15 @@ Button#addFardamento {
   justify-content: center;
   align-items: center;
   margin: 5px;
+  
 }
+
+Button#addFardamento:disabled{
+  background-color: red;
+  width: 35px;
+  margin: 5px 30px;
+}
+
+
+
+
