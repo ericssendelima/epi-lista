@@ -46,9 +46,9 @@ export const Login = () => {
 
   return (
     <form className="form-login" onSubmit={doIt}>
-      <label className="label" htmlFor="typeNumber">
+      <h1 id="titulo" htmlFor="typeNumber">
         Matrícula
-      </label>
+      </h1>
       <input
         type="number"
         id="typeNumber"

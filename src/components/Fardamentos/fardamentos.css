@@ -1,0 +1,71 @@
+h1#fardamento {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div .formEpiHeader {
+  /* background-color: rgb(255, 127, 127); */
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5px;
+}
+
+label {
+  /* background-color: blue; */
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+span#labelFardamentos{
+    font-weight: bold;
+}
+
+div .selectFardamento {
+  /* background-color: rgb(162, 106, 33); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .accordion {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+div .offCanvas {
+  width: 100%;
+}
+
+Offcanvas#offBody{
+    background-color: blueviolet;
+}
+
+Button#buttonFardamentos {
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(109, 181, 233);
+  color: rgb(13, 13, 88);
+}
+
+Button#addFardamento {
+  background-color: rgb(109, 181, 233);
+  color: rgb(13, 13, 88);
+  font-weight: bold;
+  border: none;
+  height: 35px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
