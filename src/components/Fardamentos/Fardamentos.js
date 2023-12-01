@@ -114,14 +114,14 @@ const Fardamentos = () => {
                     }}
                   >
                     <option value={0}>Escolha a camisa</option>
-                    <option value={38864}>Camisa malha LONGA TAM: P</option>
-                    <option value={38865}>Camisa malha LONGA TAM: M</option>
-                    <option value={38866}>Camisa malha LONGA TAM: G</option>
-                    <option value={38867}>Camisa malha LONGA TAM: GG</option>
-                    <option value={38868}>Camisa malha CURTA TAM: P</option>
-                    <option value={38869}>Camisa malha CURTA TAM: M</option>
-                    <option value={38870}>Camisa malha CURTA TAM: G</option>
-                    <option value={38871}>Camisa malha CURTA TAM: GG</option>
+                    <option value={36864}>Camisa malha LONGA TAM: P</option>
+                    <option value={36865}>Camisa malha LONGA TAM: M</option>
+                    <option value={36866}>Camisa malha LONGA TAM: G</option>
+                    <option value={36867}>Camisa malha LONGA TAM: GG</option>
+                    <option value={36868}>Camisa malha CURTA TAM: P</option>
+                    <option value={36869}>Camisa malha CURTA TAM: M</option>
+                    <option value={36870}>Camisa malha CURTA TAM: G</option>
+                    <option value={36871}>Camisa malha CURTA TAM: GG</option>
                   </select>
                 </label>
                 <Button
@@ -198,6 +198,8 @@ const Fardamentos = () => {
                     <option value={18808}>Macacão TAM: M</option>
                     <option value={18806}>Macacão TAM: G</option>
                     <option value={18807}>Macacão TAM: GG</option>
+                    <option value={41375}>Macacão TAM: XG</option>
+
                   </select>
                 </label>
                 <Button
