@@ -86,7 +86,7 @@ const Fardamentos = () => {
   return (
     <div className="offCanvas">
       <Button id="buttonFardamentos" onClick={handleShow}>
-        Fardamentos
+        Clique aqui para fardamentos
       </Button>
 
       <Offcanvas
